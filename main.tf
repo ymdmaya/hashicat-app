@@ -199,6 +199,6 @@ resource "aws_key_pair" "hashicat" {
 }
 
 module "s3-bucket" {
-  source  = "cloudposse/s3-bucket/aws"
+  source  = ""app.terraform.io/awsjapan_ymdmaya_demo/s3-bucket/aws""
   version = "3.0.0"
 }
